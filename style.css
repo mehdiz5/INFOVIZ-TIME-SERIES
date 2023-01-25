@@ -1,0 +1,47 @@
+body {
+    font: 10px sans-serif;
+  }
+  
+ 
+  
+  .line {
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+  }
+  
+  .context .line {
+    stroke-width: 0.5px;
+  }
+  
+  .brush .extent {
+    stroke: #fff;
+    fill-opacity: .125;
+    shape-rendering: crispEdges;
+  }
+  
+  .line.highlight {
+      fill-opacity: 1;
+      stroke-opacity: 1;
+  }
+
+  .context .line.highlight {
+      stroke-width: 1.0;
+  }
+  
+
+  h3{
+      text-align: center;
+  }
+  .zoom {
+    cursor: move;
+    fill: none;
+    pointer-events: all;
+  }
+
+
+  #graph{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+  }
